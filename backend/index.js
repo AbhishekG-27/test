@@ -10,7 +10,7 @@ import { leaveRoom } from "./leaveRoom/index.js";
 const app = express();
 
 app.get("/*", (req, res) => {
-  res.send("Server running on port 8000 .");
+  res.send("Server running on port your_port .");
 });
 
 const server = app.listen(8000, () => {
